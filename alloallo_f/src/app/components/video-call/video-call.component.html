@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Video Call</h1>
+  
+    <div>
+      <h3>Local Stream</h3>
+      <video #localVideo autoplay playsinline muted></video>
+    </div>
+  
+    <div>
+      <h3>Remote Stream</h3>
+      <video #remoteVideo autoplay playsinline></video>
+    </div>
+  
+    <div>
+      <button (click)="startCall()">Start Call</button>
+    </div>
+  </div>
+  
